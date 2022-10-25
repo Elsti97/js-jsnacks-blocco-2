@@ -11,10 +11,22 @@
 
 
 // * JSnack 2
-let names = [ 'Franco', 'Gino', 'Aldo', 'John'];
-let Nname = names.length;
+// let names = [ 'Franco', 'Gino', 'Aldo', 'John'];
+// let Nname = names.length;
 
-let surnames = [ 'DiMarco', 'Gasby', 'BigG', 'Rossi'];
-let Nsurname = surnames.length;
+// let surnames = [ 'DiMarco', 'Gasby', 'BigG', 'Rossi'];
+// let Nsurname = surnames.length;
 
-console.log( names[ Math.round(Math.random() * (Nname - 1))] + ' ' + surnames[Math.round(Math.random() * (Nsurname - 1))]);
+// console.log( names[ Math.round(Math.random() * (Nname - 1))] + ' ' + surnames[Math.round(Math.random() * (Nsurname - 1))]);
+
+
+
+// * JSnack 3
+let numbers = [1, 6, 8, 2, 5, 7, 9, 2]
+let somma= 0;
+
+for(let i = 1; i < numbers.length; i += 2) {
+  somma += numbers[i]
+}
+
+console.log(somma)
