@@ -11,5 +11,10 @@
 
 
 // * JSnack 2
-let name []
-let surname []
+let names = [ 'Franco', 'Gino', 'Aldo', 'John'];
+let Nname = names.length;
+
+let surnames = [ 'DiMarco', 'Gasby', 'BigG', 'Rossi'];
+let Nsurname = surnames.length;
+
+console.log( names[ Math.round(Math.random() * (Nname - 1))] + ' ' + surnames[Math.round(Math.random() * (Nsurname - 1))]);
