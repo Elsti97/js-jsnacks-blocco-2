@@ -11,21 +11,19 @@
 
 
 // * JSnack 2
-let names = [ 'Franco', 'Gino', 'Aldo', 'John'];
+// let names = [ 'Franco', 'Gino', 'Aldo', 'John'];
 
-let surnames = [ 'DiMarco', 'Gasby', 'BigG', 'Rossi'];
-const FullName = [];
+// let surnames = [ 'DiMarco', 'Gasby', 'BigG', 'Rossi'];
+// const FullName = [];
 
-for(let i = 0; i < surnames.length; i++){
-  let Nname = Math.floor(Math.random() * names.length);
-  let Nsurname = Math.floor(Math.random() * surnames.length);
+// for(let i = 0; i < surnames.length; i++){
+//   let Nname = Math.floor(Math.random() * names.length);
+//   let Nsurname = Math.floor(Math.random() * surnames.length);
 
-  FullName.push(`${names[Nname]} ${surnames[Nsurname]}`);
-}
+//   FullName.push(`${names[Nname]} ${surnames[Nsurname]}`);
+// }
 
-console.log(FullName);
-
-// console.log( names[ Math.round(Math.random() * (Nname - 1))] + ' ' + surnames[Math.round(Math.random() * (Nsurname - 1))]);
+// console.log(FullName);
 
 
 
@@ -42,30 +40,30 @@ console.log(FullName);
 
 
 // * JSnack 4
-// let array1 = ['FrancoArmani', 'GigiFinizzio', 'Alisson', 'CHEFBruno', 'Joe', 'Jack'];
-// Narray1 = array1.length;
+let array1 = ['FrancoArmani', 'GigiFinizzio', 'Alisson', 'CHEFBruno', 'Joe', 'Jack'];
+Narray1 = array1.length;
 
-// let array2 = ['Aldo', 'Giovanni', 'Giacomo'];
-// Narray2 = array2.length;
+let array2 = ['Aldo', 'Giovanni', 'Giacomo'];
+Narray2 = array2.length;
 
-// if (Narray1 < Narray2) {
-//   let differenza = Narray2 - Narray1;
-//   for(let i = 0; i < differenza; i++){
-//     let AggiuntaUtente = prompt('Aggiungi un nome');
-//     array1.push(AggiuntaUtente);
+if (Narray1 < Narray2) {
+  let differenza = Narray2 - Narray1;
+  for(let i = 0; i < differenza; i++){
+    let AggiuntaUtente = prompt('Aggiungi un nome');
+    array1.push(AggiuntaUtente);
     
-//   }
-//   console.log(differenza, array1, array2);
+  }
+  console.log(differenza, array1, array2);
   
-// } else if (Narray2 < Narray1) {
-//   let differenza = Narray1 - Narray2;
-//   for(let i = 0; i < differenza; i++){
-//     let AggiuntaUtente = prompt('Aggiunti un nome');
-//     array2.push(AggiuntaUtente);
+} else if (Narray2 < Narray1) {
+  let differenza = Narray1 - Narray2;
+  for(let i = 0; i < differenza; i++){
+    let AggiuntaUtente = prompt('Aggiunti un nome');
+    array2.push(AggiuntaUtente);
     
-//   }
-//   console.log(differenza, array1, array2);
+  }
+  console.log(differenza, array1, array2);
 
-// } else {
-//   console.log("Sono uguali")
-// }
+} else {
+  console.log("Sono uguali")
+}
